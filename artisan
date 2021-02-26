@@ -1,0 +1,40 @@
+#!/usr/bin/env php
+<?php
+
+use PNdata\Copy\Tools\Helpers;
+
+define('COPY_START', microtime(true));
+
+/*
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader
+| for our application. We just need to utilize it! We'll require it
+| into the script here so that we do not have to worry about the
+| loading of any our classes "manually". Feels great to relax.
+|
+*/
+$autoloader = require file_exists(__DIR__ . '/vendor/autoload.php') ? __DIR__ . '/vendor/autoload.php' : __DIR__ . '/../../autoload.php';
+
+$commands = [
+    'copy'      => \PNdata\Copy\Commands\CopyCommand::class,
+    'run:tests' => \PNdata\Copy\Commands\RunTestsCommand::class
+];
+
+try {
+    $app = require_once __DIR__ . '/bootstrap/app.php';
+
+    array_shift($argv);
+
+    $commandName = $argv[0];
+    if (!isset($commands[$commandName]))
+        throw new Exception("Command $commandName not exists");
+
+    $commandClass = $commands[$commandName];
+    $command = $app->make($argv, new $commandClass());
+    $command->handle();
+} catch (\Throwable $exception) {
+    Helpers::signal($exception);
+}
