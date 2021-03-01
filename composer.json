@@ -28,5 +28,8 @@
     "classmap" : [
       "tests/"
     ]
+  },
+  "scripts"     : {
+    "phpdoc" : "phpdoc --directory . --target docs --title 'FC documentation' --ignore vendor -vv"
   }
 }
