@@ -1,585 +1,585 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\PNdata\\Copy\\Commands\\CopyCommand",
+            "fqsen": "\\Ssf\\Copy\\Commands\\CopyCommand",
             "name": "CopyCommand",
-            "summary": "Class\u0020CopyCommand",
-            "url": "classes/PNdata-Copy-Commands-CopyCommand.html"
+            "summary": "Class\u0020CopyCommand\nCette\u0020classe\u0020est\u0020d\u00E9finie\u0020la\u0020commande\u0020copy",
+            "url": "classes/Ssf-Copy-Commands-CopyCommand.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\CopyCommand\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\CopyCommand\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "CopyCommand\u0020constructor.",
-            "url": "classes/PNdata-Copy-Commands-CopyCommand.html#method___construct"
+            "url": "classes/Ssf-Copy-Commands-CopyCommand.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\CopyCommand\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\CopyCommand\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-CopyCommand.html#method_handle"
+            "url": "classes/Ssf-Copy-Commands-CopyCommand.html#method_handle"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\CopyCommand\u003A\u003AremoteOptions\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\CopyCommand\u003A\u003AremoteOptions\u0028\u0029",
             "name": "remoteOptions",
             "summary": "Permet\u0020de\u0020d\u00E9finir\u0020le\u0020tableau\u0020pour\u0020les\noptions\u0020si\u0020on\u0020se\u0020trouve\u0020dans\u0020une\u0020copie\nentre\u00202\u0020serveurs\u0020distants.",
-            "url": "classes/PNdata-Copy-Commands-CopyCommand.html#method_remoteOptions"
+            "url": "classes/Ssf-Copy-Commands-CopyCommand.html#method_remoteOptions"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Input",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Input",
             "name": "Input",
-            "summary": "Class\u0020Input",
-            "url": "classes/PNdata-Copy-Commands-Input-Input.html"
+            "summary": "Class\u0020Input\nCette\u0020classe\u0020est\u0020la\u0020classe\u0020m\u00E8re\u0020des\u0020arguments\u0020et\noptions\u0020des\u0020commandes\u0020console.\u0020Elle\u0020permet\u0020de\u0020d\u00E9finir\nla\u0020structure\u0020d\u0027un\u0020\u003Cinput\u003E\u0020et\u0020de\u0020le\u0020cr\u00E9er\nLa\u0020structure\u0020d\u0027un\u0020champ\u0020\u003Cinput\u003E\u0020est\u0020definie\nau\u0020niveau\u0020de\u0020la\u0020m\u00E9thode\u0020value",
+            "url": "classes/Ssf-Copy-Commands-Input-Input.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Input\u003A\u003Avalue\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Input\u003A\u003Avalue\u0028\u0029",
             "name": "value",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-Input-Input.html#method_value"
+            "url": "classes/Ssf-Copy-Commands-Input-Input.html#method_value"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputArgument",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputArgument",
             "name": "InputArgument",
-            "summary": "Class\u0020InputArgument",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputArgument.html"
+            "summary": "Class\u0020InputArgument\nCette\u0020classe\u0020contient\u0020le\u0020code\u0020permettant\u0020de\u0020cr\u00E9er\nle\u0020tableau\u0020contentant\u0020les\u0020arguments\u0020des\u0020commandes\nconsole.",
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputArgument.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputArgument\u003A\u003Acreate\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputArgument\u003A\u003Acreate\u0028\u0029",
             "name": "create",
             "summary": "Cr\u00E9e\u0020un\u0020tableau\u0020contenant\u0020les\u0020variables\u0020de\u0020type\narguments.",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputArgument.html#method_create"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputArgument.html#method_create"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputOption",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputOption",
             "name": "InputOption",
-            "summary": "Class\u0020InputOption",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputOption.html"
+            "summary": "Class\u0020InputOption\nCette\u0020classe\u0020contient\u0020le\u0020code\u0020permettant\u0020de\u0020cr\u00E9er\nle\u0020tableau\u0020contentant\u0020les\u0020options\u0020des\u0020commandes\nconsole.",
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputOption.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputOption\u003A\u003Acreate\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputOption\u003A\u003Acreate\u0028\u0029",
             "name": "create",
             "summary": "Cr\u00E9e\u0020un\u0020tableau\u0020contenant\u0020les\u0020variables\u0020de\u0020type\narguments.",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputOption.html#method_create"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputOption.html#method_create"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputOptional",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputOptional",
             "name": "InputOptional",
-            "summary": "Class\u0020InputOptional",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputOptional.html"
+            "summary": "Class\u0020InputOptional\nCette\u0020classe\u0020permet\u0020de\u0020d\u00E9finir\u0020des\u0020arguments\u0020\u0026\u0020options\u0020facultatifs.",
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputOptional.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputOptional\u003A\u003Avalue\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputOptional\u003A\u003Avalue\u0028\u0029",
             "name": "value",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputOptional.html#method_value"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputOptional.html#method_value"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputOptional\u003A\u003Aoption\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputOptional\u003A\u003Aoption\u0028\u0029",
             "name": "option",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputOptional.html#method_option"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputOptional.html#method_option"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputRequired",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputRequired",
             "name": "InputRequired",
-            "summary": "Class\u0020InputRequired",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputRequired.html"
+            "summary": "Class\u0020InputRequired\nCette\u0020classe\u0020permet\u0020de\u0020d\u00E9finir\u0020des\u0020arguments\u0020\u0026\u0020options\u0020requis.",
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputRequired.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputRequired\u003A\u003Avalue\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputRequired\u003A\u003Avalue\u0028\u0029",
             "name": "value",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputRequired.html#method_value"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputRequired.html#method_value"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type\\InputRequired\u003A\u003Aoption\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type\\InputRequired\u003A\u003Aoption\u0028\u0029",
             "name": "option",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-Input-Type-InputRequired.html#method_option"
+            "url": "classes/Ssf-Copy-Commands-Input-Type-InputRequired.html#method_option"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\RunTestsCommand",
+            "fqsen": "\\Ssf\\Copy\\Commands\\RunTestsCommand",
             "name": "RunTestsCommand",
             "summary": "Class\u0020RunTestsCommand",
-            "url": "classes/PNdata-Copy-Commands-RunTestsCommand.html"
+            "url": "classes/Ssf-Copy-Commands-RunTestsCommand.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\RunTestsCommand\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\RunTestsCommand\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "RunTestsCommand\u0020constructor.",
-            "url": "classes/PNdata-Copy-Commands-RunTestsCommand.html#method___construct"
+            "url": "classes/Ssf-Copy-Commands-RunTestsCommand.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\RunTestsCommand\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Commands\\RunTestsCommand\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/PNdata-Copy-Commands-RunTestsCommand.html#method_handle"
+            "url": "classes/Ssf-Copy-Commands-RunTestsCommand.html#method_handle"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\ArgvNotExistsException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\ArgvNotExistsException",
             "name": "ArgvNotExistsException",
-            "summary": "Class\u0020ArgvNotExistsException",
-            "url": "classes/PNdata-Copy-Exceptions-ArgvNotExistsException.html"
+            "summary": "Class\u0020ArgvNotExistsException\nThis\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020wrong\u0020argv\nprovided\u0020to\u0020command.",
+            "url": "classes/Ssf-Copy-Exceptions-ArgvNotExistsException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\ArgvNotExistsException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\ArgvNotExistsException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "ArgvNotExistsException\u0020constructor.",
-            "url": "classes/PNdata-Copy-Exceptions-ArgvNotExistsException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-ArgvNotExistsException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\CannotMkdirException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\CannotMkdirException",
             "name": "CannotMkdirException",
-            "summary": "Class\u0020CannotMkdirException",
-            "url": "classes/PNdata-Copy-Exceptions-CannotMkdirException.html"
+            "summary": "Class\u0020CannotMkdirException\nThis\u0020exception\u0020is\u0020thrown\u0020when\u0020make\u0020directory\nfails.",
+            "url": "classes/Ssf-Copy-Exceptions-CannotMkdirException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\CannotMkdirException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\CannotMkdirException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "CannotMkdirException\u0020constructor.",
-            "url": "classes/PNdata-Copy-Exceptions-CannotMkdirException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-CannotMkdirException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\CommandOptionMissingException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\CommandOptionMissingException",
             "name": "CommandOptionMissingException",
-            "summary": "Class\u0020CommandOptionMissingException",
-            "url": "classes/PNdata-Copy-Exceptions-CommandOptionMissingException.html"
+            "summary": "Class\u0020CommandOptionMissingException\nThis\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020wrong\u0020option\nis\u0020provided\u0020to\u0020command.",
+            "url": "classes/Ssf-Copy-Exceptions-CommandOptionMissingException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\CommandOptionMissingException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\CommandOptionMissingException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/PNdata-Copy-Exceptions-CommandOptionMissingException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-CommandOptionMissingException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\DirectoryNotFoundException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\DirectoryNotFoundException",
             "name": "DirectoryNotFoundException",
-            "summary": "Class\u0020DirectoryNotFoundException",
-            "url": "classes/PNdata-Copy-Exceptions-DirectoryNotFoundException.html"
+            "summary": "Class\u0020DirectoryNotFoundException\nThis\u0020exception\u0020is\u0020thrown\u0020when\u0020a\u0020directory\u0020is\nnot\u0020found.",
+            "url": "classes/Ssf-Copy-Exceptions-DirectoryNotFoundException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\DirectoryNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\DirectoryNotFoundException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "DirectoryNotFoundException\u0020constructor.",
-            "url": "classes/PNdata-Copy-Exceptions-DirectoryNotFoundException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-DirectoryNotFoundException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\FailedCopyException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\FailedCopyException",
             "name": "FailedCopyException",
-            "summary": "Class\u0020FailedCopyException",
-            "url": "classes/PNdata-Copy-Exceptions-FailedCopyException.html"
+            "summary": "Class\u0020FailedCopyException\nThis\u0020exception\u0020is\u0020thrown\u0020when\u0020copying\nfails.",
+            "url": "classes/Ssf-Copy-Exceptions-FailedCopyException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\FailedCopyException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\FailedCopyException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "FailedCopyException\u0020constructor.",
-            "url": "classes/PNdata-Copy-Exceptions-FailedCopyException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-FailedCopyException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\FileNotFoundException",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\FileNotFoundException",
             "name": "FileNotFoundException",
             "summary": "Class\u0020FileNotFoundException",
-            "url": "classes/PNdata-Copy-Exceptions-FileNotFoundException.html"
+            "url": "classes/Ssf-Copy-Exceptions-FileNotFoundException.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions\\FileNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Exceptions\\FileNotFoundException\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "FileNotFoundException\u0020constructor.",
-            "url": "classes/PNdata-Copy-Exceptions-FileNotFoundException.html#method___construct"
+            "url": "classes/Ssf-Copy-Exceptions-FileNotFoundException.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy",
             "name": "Copy",
-            "summary": "Class\u0020Copy",
-            "url": "classes/PNdata-Copy-Facades-Copy.html"
+            "summary": "Class\u0020Copy\nCette\u0020classe\u0020permet\u0020d\u0027utiliser\u0020la\u0020classe\u0020\u0040see\u0020\\Ssf\\Copy\\Services\\Finder\nde\u0020mani\u00E8re\u0020transparente.",
+            "url": "classes/Ssf-Copy-Facades-Copy.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Copy\u0020constructor.",
-            "url": "classes/PNdata-Copy-Facades-Copy.html#method___construct"
+            "url": "classes/Ssf-Copy-Facades-Copy.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy\u003A\u003Arun\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy\u003A\u003Arun\u0028\u0029",
             "name": "run",
             "summary": "",
-            "url": "classes/PNdata-Copy-Facades-Copy.html#method_run"
+            "url": "classes/Ssf-Copy-Facades-Copy.html#method_run"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy\u003A\u003A\u0024finder",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy\u003A\u003A\u0024finder",
             "name": "finder",
             "summary": "",
-            "url": "classes/PNdata-Copy-Facades-Copy.html#property_finder"
+            "url": "classes/Ssf-Copy-Facades-Copy.html#property_finder"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy\u003A\u003A\u0024download",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy\u003A\u003A\u0024download",
             "name": "download",
             "summary": "",
-            "url": "classes/PNdata-Copy-Facades-Copy.html#property_download"
+            "url": "classes/Ssf-Copy-Facades-Copy.html#property_download"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\Copy\u003A\u003A\u0024remote",
+            "fqsen": "\\Ssf\\Copy\\Facades\\Copy\u003A\u003A\u0024remote",
             "name": "remote",
             "summary": "",
-            "url": "classes/PNdata-Copy-Facades-Copy.html#property_remote"
+            "url": "classes/Ssf-Copy-Facades-Copy.html#property_remote"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\File",
+            "fqsen": "\\Ssf\\Copy\\Facades\\File",
             "name": "File",
             "summary": "Class\u0020File",
-            "url": "classes/PNdata-Copy-Facades-File.html"
+            "url": "classes/Ssf-Copy-Facades-File.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades\\File\u003A\u003Adirname\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Facades\\File\u003A\u003Adirname\u0028\u0029",
             "name": "dirname",
             "summary": "",
-            "url": "classes/PNdata-Copy-Facades-File.html#method_dirname"
+            "url": "classes/Ssf-Copy-Facades-File.html#method_dirname"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application",
             "name": "Application",
             "summary": "Class\u0020Application",
-            "url": "classes/PNdata-Copy-Framework-Application.html"
+            "url": "classes/Ssf-Copy-Framework-Application.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Application\u0020constructor.",
-            "url": "classes/PNdata-Copy-Framework-Application.html#method___construct"
+            "url": "classes/Ssf-Copy-Framework-Application.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application\u003A\u003AsetBasePath\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application\u003A\u003AsetBasePath\u0028\u0029",
             "name": "setBasePath",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Application.html#method_setBasePath"
+            "url": "classes/Ssf-Copy-Framework-Application.html#method_setBasePath"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application\u003A\u003Amake\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application\u003A\u003Amake\u0028\u0029",
             "name": "make",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Application.html#method_make"
+            "url": "classes/Ssf-Copy-Framework-Application.html#method_make"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application\u003A\u003Asingleton\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application\u003A\u003Asingleton\u0028\u0029",
             "name": "singleton",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Application.html#method_singleton"
+            "url": "classes/Ssf-Copy-Framework-Application.html#method_singleton"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Application\u003A\u003A\u0024basePath",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Application\u003A\u003A\u0024basePath",
             "name": "basePath",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Application.html#property_basePath"
+            "url": "classes/Ssf-Copy-Framework-Application.html#property_basePath"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command",
             "name": "Command",
             "summary": "Class\u0020Command",
-            "url": "classes/PNdata-Copy-Framework-Command.html"
+            "url": "classes/Ssf-Copy-Framework-Command.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Command\u0020constructor.",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method___construct"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003AsetParameters\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003AsetParameters\u0028\u0029",
             "name": "setParameters",
             "summary": "R\u00E9cup\u00E9ration\u0020des\u0020argv\u0020de\u0020PHP\u0020et\ns\u00E9parations\u0020en\u0020arguments\u0020\u0026\u0020options.",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_setParameters"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_setParameters"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003AsetArguments\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003AsetArguments\u0028\u0029",
             "name": "setArguments",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_setArguments"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_setArguments"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003AsetOptions\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003AsetOptions\u0028\u0029",
             "name": "setOptions",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_setOptions"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_setOptions"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Avalid\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Avalid\u0028\u0029",
             "name": "valid",
             "summary": "Validation\u0020des\u0020valeurs\u0020avec\u0020les\u0020r\u00E8gles\u0020d\u00E9finies.",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_valid"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_valid"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003AsignatureParameters\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003AsignatureParameters\u0028\u0029",
             "name": "signatureParameters",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_signatureParameters"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_signatureParameters"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Aoption\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Aoption\u0028\u0029",
             "name": "option",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_option"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_option"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Aargument\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Aargument\u0028\u0029",
             "name": "argument",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_argument"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_argument"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_handle"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_handle"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Ahelp\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Ahelp\u0028\u0029",
             "name": "help",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_help"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_help"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003AhelpField\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003AhelpField\u0028\u0029",
             "name": "helpField",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_helpField"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_helpField"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003Asecret\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003Asecret\u0028\u0029",
             "name": "secret",
             "summary": "Permet\u0020de\u0020renseigner\u0020une\u0020cha\u00EEne\u0020de\u0020caract\u00E8re\ndans\u0020un\u0020champ\u0020cach\u00E9.",
-            "url": "classes/PNdata-Copy-Framework-Command.html#method_secret"
+            "url": "classes/Ssf-Copy-Framework-Command.html#method_secret"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A\u0024arguments",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A\u0024arguments",
             "name": "arguments",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#property_arguments"
+            "url": "classes/Ssf-Copy-Framework-Command.html#property_arguments"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A\u0024options",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A\u0024options",
             "name": "options",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#property_options"
+            "url": "classes/Ssf-Copy-Framework-Command.html#property_options"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A\u0024parameters",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A\u0024parameters",
             "name": "parameters",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#property_parameters"
+            "url": "classes/Ssf-Copy-Framework-Command.html#property_parameters"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A\u0024signature",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A\u0024signature",
             "name": "signature",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#property_signature"
+            "url": "classes/Ssf-Copy-Framework-Command.html#property_signature"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Command\u003A\u003A\u0024name",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Command\u003A\u003A\u0024name",
             "name": "name",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Command.html#property_name"
+            "url": "classes/Ssf-Copy-Framework-Command.html#property_name"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container",
             "name": "Container",
             "summary": "Class\u0020Container",
-            "url": "classes/PNdata-Copy-Framework-Container.html"
+            "url": "classes/Ssf-Copy-Framework-Container.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Container\u0020constructor.",
-            "url": "classes/PNdata-Copy-Framework-Container.html#method___construct"
+            "url": "classes/Ssf-Copy-Framework-Container.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003Aregister\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003Aregister\u0028\u0029",
             "name": "register",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Container.html#method_register"
+            "url": "classes/Ssf-Copy-Framework-Container.html#method_register"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003Aresolve\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003Aresolve\u0028\u0029",
             "name": "resolve",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Container.html#method_resolve"
+            "url": "classes/Ssf-Copy-Framework-Container.html#method_resolve"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003AgetInstance\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003AgetInstance\u0028\u0029",
             "name": "getInstance",
             "summary": "Get\u0020the\u0020globally\u0020available\u0020instance\u0020of\u0020the\u0020container.",
-            "url": "classes/PNdata-Copy-Framework-Container.html#method_getInstance"
+            "url": "classes/Ssf-Copy-Framework-Container.html#method_getInstance"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003A\u0024instance",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "The\u0020current\u0020globally\u0020available\u0020container\u0020\u0028if\u0020any\u0029.",
-            "url": "classes/PNdata-Copy-Framework-Container.html#property_instance"
+            "url": "classes/Ssf-Copy-Framework-Container.html#property_instance"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Container\u003A\u003A\u0024singletons",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Container\u003A\u003A\u0024singletons",
             "name": "singletons",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Container.html#property_singletons"
+            "url": "classes/Ssf-Copy-Framework-Container.html#property_singletons"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Kernel",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Kernel",
             "name": "Kernel",
             "summary": "Interface\u0020Kernel",
-            "url": "classes/PNdata-Copy-Framework-Kernel.html"
+            "url": "classes/Ssf-Copy-Framework-Kernel.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework\\Kernel\u003A\u003Ahandle\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Framework\\Kernel\u003A\u003Ahandle\u0028\u0029",
             "name": "handle",
             "summary": "",
-            "url": "classes/PNdata-Copy-Framework-Kernel.html#method_handle"
+            "url": "classes/Ssf-Copy-Framework-Kernel.html#method_handle"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface",
             "name": "FilesystemInterface",
-            "summary": "Interface\u0020FilesystemInterface",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html"
+            "summary": "Interface\u0020FilesystemInterface\nCette\u0020inferface\u0020contient\u0020les\u0020m\u00E9thodes\u0020utiles\n\u00E0\u0020impl\u00E9menter\u0020pour\u0020la\u0020gestion\u0020des\u0020fichiers\nsyst\u00E8mes.",
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Aexists\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Aexists\u0028\u0029",
             "name": "exists",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_exists"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_exists"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AisDirectory\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AisDirectory\u0028\u0029",
             "name": "isDirectory",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_isDirectory"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_isDirectory"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AisFile\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AisFile\u0028\u0029",
             "name": "isFile",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_isFile"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_isFile"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AmakeDirectory\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003AmakeDirectory\u0028\u0029",
             "name": "makeDirectory",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_makeDirectory"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_makeDirectory"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Aname\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_name"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_name"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Adirname\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Adirname\u0028\u0029",
             "name": "dirname",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_dirname"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_dirname"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Acopy\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Acopy\u0028\u0029",
             "name": "copy",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_copy"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_copy"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Amirror\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface\u003A\u003Amirror\u0028\u0029",
             "name": "mirror",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-FilesystemInterface.html#method_mirror"
+            "url": "classes/Ssf-Copy-Services-Filesystems-FilesystemInterface.html#method_mirror"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem",
             "name": "LocalFilesystem",
-            "summary": "Class\u0020LocalFilesystem",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html"
+            "summary": "Class\u0020LocalFilesystem\nCette\u0020classe\u0020impl\u00E9mente\u0020\u0040see\u0020\\Ssf\\Copy\\Services\\Filesystems\\FilesystemInterface",
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Constructeur\u0020de\u0020la\u0020classe",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method___construct"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AgetInstance\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AgetInstance\u0028\u0029",
             "name": "getInstance",
             "summary": "M\u00E9thode\u0020qui\u0020cr\u00E9e\u0020l\u0027unique\u0020instance\u0020de\u0020la\u0020classe\nsi\u0020elle\u0020n\u0027existe\u0020pas\u0020encore\u0020puis\u0020la\u0020retourne.",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_getInstance"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_getInstance"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Aexists\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Aexists\u0028\u0029",
             "name": "exists",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_exists"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_exists"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AisDirectory\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AisDirectory\u0028\u0029",
             "name": "isDirectory",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_isDirectory"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_isDirectory"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AisFile\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AisFile\u0028\u0029",
             "name": "isFile",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_isFile"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_isFile"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AmakeDirectory\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AmakeDirectory\u0028\u0029",
             "name": "makeDirectory",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_makeDirectory"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_makeDirectory"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Aname\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Aname\u0028\u0029",
             "name": "name",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_name"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_name"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Adirname\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Adirname\u0028\u0029",
             "name": "dirname",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_dirname"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_dirname"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Acopy\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Acopy\u0028\u0029",
             "name": "copy",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_copy"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_copy"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Amirror\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003Amirror\u0028\u0029",
             "name": "mirror",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_mirror"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_mirror"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AgetFilesystem\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003AgetFilesystem\u0028\u0029",
             "name": "getFilesystem",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#method_getFilesystem"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#method_getFilesystem"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024filesystem",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024filesystem",
             "name": "filesystem",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#property_filesystem"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#property_filesystem"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024adapter",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024adapter",
             "name": "adapter",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#property_adapter"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#property_adapter"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024_instance",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems\\LocalFilesystem\u003A\u003A\u0024_instance",
             "name": "_instance",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Filesystems-LocalFilesystem.html#property__instance"
+            "url": "classes/Ssf-Copy-Services-Filesystems-LocalFilesystem.html#property__instance"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder",
             "name": "Finder",
-            "summary": "Class\u0020Finder",
-            "url": "classes/PNdata-Copy-Services-Finder.html"
+            "summary": "Class\u0020Finder\nCette\u0020classe\u0020permet\u0020de\u0020copier\u0020les\u0020fichiers\net\u0020les\u0020r\u00E9pertoires\u0028\u002A\u0029.",
+            "url": "classes/Ssf-Copy-Services-Finder.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Finder\u0020constructor.",
-            "url": "classes/PNdata-Copy-Services-Finder.html#method___construct"
+            "url": "classes/Ssf-Copy-Services-Finder.html#method___construct"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003Acopy\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003Acopy\u0028\u0029",
             "name": "copy",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Finder.html#method_copy"
+            "url": "classes/Ssf-Copy-Services-Finder.html#method_copy"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003A__copy\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003A__copy\u0028\u0029",
             "name": "__copy",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Finder.html#method___copy"
+            "url": "classes/Ssf-Copy-Services-Finder.html#method___copy"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003A__mirror\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003A__mirror\u0028\u0029",
             "name": "__mirror",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Finder.html#method___mirror"
+            "url": "classes/Ssf-Copy-Services-Finder.html#method___mirror"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003Afilesystem\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003Afilesystem\u0028\u0029",
             "name": "filesystem",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Finder.html#method_filesystem"
+            "url": "classes/Ssf-Copy-Services-Finder.html#method_filesystem"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Finder\u003A\u003A\u0024remote",
+            "fqsen": "\\Ssf\\Copy\\Services\\Finder\u003A\u003A\u0024remote",
             "name": "remote",
             "summary": "",
-            "url": "classes/PNdata-Copy-Services-Finder.html#property_remote"
+            "url": "classes/Ssf-Copy-Services-Finder.html#property_remote"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers",
             "name": "Helpers",
             "summary": "Class\u0020Helpers",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Aenv\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Aenv\u0028\u0029",
             "name": "env",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_env"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_env"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Atoday\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Atoday\u0028\u0029",
             "name": "today",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_today"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_today"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Astorage_path\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Astorage_path\u0028\u0029",
             "name": "storage_path",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_storage_path"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_storage_path"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Aconfig\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Aconfig\u0028\u0029",
             "name": "config",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_config"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_config"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Aapp\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Aapp\u0028\u0029",
             "name": "app",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_app"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_app"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Helpers\u003A\u003Asignal\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Helpers\u003A\u003Asignal\u0028\u0029",
             "name": "signal",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Helpers.html#method_signal"
+            "url": "classes/Ssf-Copy-Tools-Helpers.html#method_signal"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log",
             "name": "Log",
             "summary": "Class\u0020Log",
-            "url": "classes/PNdata-Copy-Tools-Log.html"
+            "url": "classes/Ssf-Copy-Tools-Log.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log\u003A\u003Awrite\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log\u003A\u003Awrite\u0028\u0029",
             "name": "write",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Log.html#method_write"
+            "url": "classes/Ssf-Copy-Tools-Log.html#method_write"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log\u003A\u003Aerror\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log\u003A\u003Aerror\u0028\u0029",
             "name": "error",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Log.html#method_error"
+            "url": "classes/Ssf-Copy-Tools-Log.html#method_error"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log\u003A\u003Ainfo\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log\u003A\u003Ainfo\u0028\u0029",
             "name": "info",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Log.html#method_info"
+            "url": "classes/Ssf-Copy-Tools-Log.html#method_info"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log\u003A\u003Adebug\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log\u003A\u003Adebug\u0028\u0029",
             "name": "debug",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Log.html#method_debug"
+            "url": "classes/Ssf-Copy-Tools-Log.html#method_debug"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools\\Log\u003A\u003Asuccess\u0028\u0029",
+            "fqsen": "\\Ssf\\Copy\\Tools\\Log\u003A\u003Asuccess\u0028\u0029",
             "name": "success",
             "summary": "",
-            "url": "classes/PNdata-Copy-Tools-Log.html#method_success"
+            "url": "classes/Ssf-Copy-Tools-Log.html#method_success"
         },                {
             "fqsen": "\\CopyTest",
             "name": "CopyTest",
@@ -621,59 +621,59 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/default.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands",
+            "fqsen": "\\Ssf\\Copy\\Commands",
             "name": "Commands",
             "summary": "",
-            "url": "namespaces/pndata-copy-commands.html"
+            "url": "namespaces/ssf-copy-commands.html"
         },                {
-            "fqsen": "\\PNdata\\Copy",
+            "fqsen": "\\Ssf\\Copy",
             "name": "Copy",
             "summary": "",
-            "url": "namespaces/pndata-copy.html"
+            "url": "namespaces/ssf-copy.html"
         },                {
-            "fqsen": "\\PNdata",
-            "name": "PNdata",
+            "fqsen": "\\Ssf",
+            "name": "Ssf",
             "summary": "",
-            "url": "namespaces/pndata.html"
+            "url": "namespaces/ssf.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input",
             "name": "Input",
             "summary": "",
-            "url": "namespaces/pndata-copy-commands-input.html"
+            "url": "namespaces/ssf-copy-commands-input.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Commands\\Input\\Type",
+            "fqsen": "\\Ssf\\Copy\\Commands\\Input\\Type",
             "name": "Type",
             "summary": "",
-            "url": "namespaces/pndata-copy-commands-input-type.html"
+            "url": "namespaces/ssf-copy-commands-input-type.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Exceptions",
+            "fqsen": "\\Ssf\\Copy\\Exceptions",
             "name": "Exceptions",
             "summary": "",
-            "url": "namespaces/pndata-copy-exceptions.html"
+            "url": "namespaces/ssf-copy-exceptions.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Facades",
+            "fqsen": "\\Ssf\\Copy\\Facades",
             "name": "Facades",
             "summary": "",
-            "url": "namespaces/pndata-copy-facades.html"
+            "url": "namespaces/ssf-copy-facades.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Framework",
+            "fqsen": "\\Ssf\\Copy\\Framework",
             "name": "Framework",
             "summary": "",
-            "url": "namespaces/pndata-copy-framework.html"
+            "url": "namespaces/ssf-copy-framework.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services\\Filesystems",
+            "fqsen": "\\Ssf\\Copy\\Services\\Filesystems",
             "name": "Filesystems",
             "summary": "",
-            "url": "namespaces/pndata-copy-services-filesystems.html"
+            "url": "namespaces/ssf-copy-services-filesystems.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Services",
+            "fqsen": "\\Ssf\\Copy\\Services",
             "name": "Services",
             "summary": "",
-            "url": "namespaces/pndata-copy-services.html"
+            "url": "namespaces/ssf-copy-services.html"
         },                {
-            "fqsen": "\\PNdata\\Copy\\Tools",
+            "fqsen": "\\Ssf\\Copy\\Tools",
             "name": "Tools",
             "summary": "",
-            "url": "namespaces/pndata-copy-tools.html"
+            "url": "namespaces/ssf-copy-tools.html"
         }            ]
 );

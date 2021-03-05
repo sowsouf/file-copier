@@ -1,12 +1,10 @@
 <?php
 /**
  * This file contains SFTPFilesystem
- * Cette classe implémente @see \PNdata\Copy\Services\Filesystems\FilesystemInterface
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Services\Filesystems;
+namespace Ssf\Copy\Services\Filesystems;
 
 
 use League\Flysystem\Filesystem;
@@ -14,12 +12,14 @@ use League\Flysystem\FilesystemException;
 use League\Flysystem\PhpseclibV2\SftpAdapter;
 use League\Flysystem\PhpseclibV2\SftpConnectionProvider;
 use League\Flysystem\StorageAttributes;
-use PNdata\Copy\Facades\File;
-use PNdata\Copy\Tools\Helpers;
+use Ssf\Copy\Facades\File;
+use Ssf\Copy\Tools\Helpers;
 
 /**
  * Class SFTPFilesystem
- * @package PNdata\Copy\Services\Filesystems
+ * Cette classe implémente @see \Ssf\Copy\Services\Filesystems\FilesystemInterface
+ *
+ * @package Ssf\Copy\Services\Filesystems
  */
 class SFTPFilesystem implements FilesystemInterface
 {

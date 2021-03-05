@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use PNdata\Copy\Tools\Helpers;
+use Ssf\Copy\Tools\Helpers;
 
 define('COPY_START', microtime(true));
 
@@ -19,8 +19,8 @@ define('COPY_START', microtime(true));
 $autoloader = require file_exists(__DIR__ . '/vendor/autoload.php') ? __DIR__ . '/vendor/autoload.php' : __DIR__ . '/../../autoload.php';
 
 $commands = [
-    'copy'      => \PNdata\Copy\Commands\CopyCommand::class,
-    'run:tests' => \PNdata\Copy\Commands\RunTestsCommand::class
+    'copy'      => \Ssf\Copy\Commands\CopyCommand::class,
+    'run:tests' => \Ssf\Copy\Commands\RunTestsCommand::class
 ];
 
 try {

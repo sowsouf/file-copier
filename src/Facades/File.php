@@ -1,12 +1,12 @@
 <?php
 
 
-namespace PNdata\Copy\Facades;
+namespace Ssf\Copy\Facades;
 
 
 /**
  * Class File
- * @package PNdata\Copy\Facades
+ * @package Ssf\Copy\Facades
  */
 class File
 {

@@ -1,27 +1,27 @@
 <?php
 /**
  * This file contains CopyCommand class.
- * Cette classe est définie la commande copy
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Commands;
+namespace Ssf\Copy\Commands;
 
 
-use PNdata\Copy\Exceptions\CommandOptionMissingException;
-use PNdata\Copy\Commands\Input\Type\InputArgument;
-use PNdata\Copy\Commands\Input\Type\InputOption;
-use PNdata\Copy\Commands\Input\Type\InputOptional;
-use PNdata\Copy\Commands\Input\Type\InputRequired;
-use PNdata\Copy\Exceptions\ArgvNotExistsException;
-use PNdata\Copy\Facades\Copy;
-use PNdata\Copy\Framework\Command;
-use PNdata\Copy\Tools\Helpers;
+use Ssf\Copy\Exceptions\CommandOptionMissingException;
+use Ssf\Copy\Commands\Input\Type\InputArgument;
+use Ssf\Copy\Commands\Input\Type\InputOption;
+use Ssf\Copy\Commands\Input\Type\InputOptional;
+use Ssf\Copy\Commands\Input\Type\InputRequired;
+use Ssf\Copy\Exceptions\ArgvNotExistsException;
+use Ssf\Copy\Facades\Copy;
+use Ssf\Copy\Framework\Command;
+use Ssf\Copy\Tools\Helpers;
 
 /**
  * Class CopyCommand
- * @package PNdata\Copy\Commands
+ * Cette classe est définie la commande copy
+ * @package Ssf\Copy\Commands
  * @see Command
  */
 class CopyCommand extends Command

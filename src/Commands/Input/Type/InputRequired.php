@@ -1,19 +1,18 @@
 <?php
 /**
  * This file contains InputRequired class.
- * Cette classe permet de définir des arguments & options requis.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Commands\Input\Type;
+namespace Ssf\Copy\Commands\Input\Type;
 
 
-use PNdata\Copy\Commands\Input\Input;
+use Ssf\Copy\Commands\Input\Input;
 
 /**
  * Class InputRequired
- * @package PNdata\Copy\Commands\Input\Type
+ * Cette classe permet de définir des arguments & options requis.
+ * @package Ssf\Copy\Commands\Input\Type
  * @see Input
  */
 class InputRequired extends Input

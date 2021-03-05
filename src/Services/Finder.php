@@ -1,6 +1,22 @@
 <?php
 /**
  * This file contains Finder class
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
+ */
+
+namespace Ssf\Copy\Services;
+
+
+use Ssf\Copy\Exceptions\CannotMkdirException;
+use Ssf\Copy\Exceptions\FailedCopyException;
+use Ssf\Copy\Exceptions\FileNotFoundException;
+use Ssf\Copy\Services\Filesystems\FilesystemInterface;
+use Ssf\Copy\Services\Filesystems\LocalFilesystem;
+use Ssf\Copy\Services\Filesystems\SFTPFilesystem;
+use Ssf\Copy\Tools\Helpers;
+
+/**
+ * Class Finder
  * Cette classe permet de copier les fichiers
  * et les répertoires(*).
  *
@@ -8,23 +24,7 @@
  * qu'en local. Elle n'est pas prise en charge vers
  * un serveur distant
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
- */
-
-namespace PNdata\Copy\Services;
-
-
-use PNdata\Copy\Exceptions\CannotMkdirException;
-use PNdata\Copy\Exceptions\FailedCopyException;
-use PNdata\Copy\Exceptions\FileNotFoundException;
-use PNdata\Copy\Services\Filesystems\FilesystemInterface;
-use PNdata\Copy\Services\Filesystems\LocalFilesystem;
-use PNdata\Copy\Services\Filesystems\SFTPFilesystem;
-use PNdata\Copy\Tools\Helpers;
-
-/**
- * Class Finder
- * @package PNdata\Copy\Services
+ * @package Ssf\Copy\Services
  */
 class Finder
 {

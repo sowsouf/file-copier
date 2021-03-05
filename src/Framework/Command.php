@@ -6,17 +6,17 @@
  *  - Un nom
  *  - Des arguments / options
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Framework;
+namespace Ssf\Copy\Framework;
 
 
-use PNdata\Copy\Exceptions\ArgvNotExistsException;
+use Ssf\Copy\Exceptions\ArgvNotExistsException;
 
 /**
  * Class Command
- * @package PNdata\Copy\Framework
+ * @package Ssf\Copy\Framework
  */
 class Command implements Kernel
 {

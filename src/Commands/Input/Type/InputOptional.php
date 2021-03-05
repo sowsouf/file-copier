@@ -1,19 +1,18 @@
 <?php
 /**
  * This file contains InputOptional class.
- * Cette classe permet de définir des arguments & options facultatifs.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Commands\Input\Type;
+namespace Ssf\Copy\Commands\Input\Type;
 
 
-use PNdata\Copy\Commands\Input\Input;
+use Ssf\Copy\Commands\Input\Input;
 
 /**
  * Class InputOptional
- * @package PNdata\Copy\Commands\Input\Type
+ * Cette classe permet de définir des arguments & options facultatifs.
+ * @package Ssf\Copy\Commands\Input\Type
  * @see Input
  */
 class InputOptional extends Input

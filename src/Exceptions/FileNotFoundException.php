@@ -3,10 +3,10 @@
  * This file contains an exception thrown when file
  * path not found.
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Exceptions;
+namespace Ssf\Copy\Exceptions;
 
 
 /**

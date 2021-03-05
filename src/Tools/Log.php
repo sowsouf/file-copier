@@ -2,15 +2,15 @@
 /**
  * This file contains Log class
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Tools;
+namespace Ssf\Copy\Tools;
 
 
 /**
  * Class Log
- * @package PNdata\Copy\Tools
+ * @package Ssf\Copy\Tools
  */
 class Log
 {
@@ -22,9 +22,9 @@ class Log
      */
     protected static function write($level, $data, $channel = null)
     {
-        $data = "[" . \PNdata\Copy\Tools\Helpers::today('Y-m-d H:i:s') . "] " . \PNdata\Copy\Tools\Helpers::env('APP_ENV', 'local') . "." . strtoupper($level) . ": " . $data;
-        $path = \PNdata\Copy\Tools\Helpers::storage_path('logs' . (!(strpos($channel, DIRECTORY_SEPARATOR) === false) ? $channel : ''));
-        return !is_dir($path) && !mkdir($path, 0777, true) ? false : !(file_put_contents($path . DIRECTORY_SEPARATOR . ($channel ? str_replace('/', '', $channel) : 'log') . "-" . \PNdata\Copy\Tools\Helpers::today('Y-m-d') . ".log", $data . PHP_EOL, FILE_APPEND) === false);
+        $data = "[" . \Ssf\Copy\Tools\Helpers::today('Y-m-d H:i:s') . "] " . \Ssf\Copy\Tools\Helpers::env('APP_ENV', 'local') . "." . strtoupper($level) . ": " . $data;
+        $path = \Ssf\Copy\Tools\Helpers::storage_path('logs' . (!(strpos($channel, DIRECTORY_SEPARATOR) === false) ? $channel : ''));
+        return !is_dir($path) && !mkdir($path, 0777, true) ? false : !(file_put_contents($path . DIRECTORY_SEPARATOR . ($channel ? str_replace('/', '', $channel) : 'log') . "-" . \Ssf\Copy\Tools\Helpers::today('Y-m-d') . ".log", $data . PHP_EOL, FILE_APPEND) === false);
     }
 
     /**

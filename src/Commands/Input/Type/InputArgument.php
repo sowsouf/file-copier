@@ -1,19 +1,20 @@
 <?php
 /**
  * This file contains InputArgument class.
- * Cette classe contient le code permettant de créer
- * le tableau contentant les arguments des commandes
- * console.
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Commands\Input\Type;
+namespace Ssf\Copy\Commands\Input\Type;
 
 
 /**
  * Class InputArgument
- * @package PNdata\Copy\Commands\Input\Type
+ * Cette classe contient le code permettant de créer
+ * le tableau contentant les arguments des commandes
+ * console.
+ *
+ * @package Ssf\Copy\Commands\Input\Type
  */
 class InputArgument
 {

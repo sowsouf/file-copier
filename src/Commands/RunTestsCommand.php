@@ -2,18 +2,18 @@
 /**
  * This file contains RunTestsCommand class.
  *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Commands;
+namespace Ssf\Copy\Commands;
 
 
-use PNdata\Copy\Exceptions\ArgvNotExistsException;
-use PNdata\Copy\Framework\Command;
+use Ssf\Copy\Exceptions\ArgvNotExistsException;
+use Ssf\Copy\Framework\Command;
 
 /**
  * Class RunTestsCommand
- * @package PNdata\Copy\Commands
+ * @package Ssf\Copy\Commands
  * @see Command
  */
 class RunTestsCommand extends Command

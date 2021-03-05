@@ -1,12 +1,12 @@
 <?php
 
 
-namespace PNdata\Copy\Framework;
+namespace Ssf\Copy\Framework;
 
 
 /**
  * Class Container
- * @package PNdata\Copy\Framework
+ * @package Ssf\Copy\Framework
  */
 class Container
 {

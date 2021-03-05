@@ -1,21 +1,21 @@
 <?php
 /**
  * This file contains LocalFilesystem
- * Cette classe implémente @see \PNdata\Copy\Services\Filesystems\FilesystemInterface
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Services\Filesystems;
+namespace Ssf\Copy\Services\Filesystems;
 
 
-use PNdata\Copy\Facades\File;
+use Ssf\Copy\Facades\File;
 use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 use Symfony\Component\Filesystem\Filesystem;
 
 /**
  * Class LocalFilesystem
- * @package PNdata\Copy\Services\Filesystems
+ * Cette classe implémente @see \Ssf\Copy\Services\Filesystems\FilesystemInterface
+ *
+ * @package Ssf\Copy\Services\Filesystems
  */
 class LocalFilesystem implements FilesystemInterface
 {

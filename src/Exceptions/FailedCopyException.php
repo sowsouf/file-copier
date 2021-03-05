@@ -1,18 +1,18 @@
 <?php
 /**
  * This file contains FailedCopyException
- * This exception is thrown when copying
- * fails.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Exceptions;
+namespace Ssf\Copy\Exceptions;
 
 
 /**
  * Class FailedCopyException
- * @package PNdata\Copy\Exceptions;
+ * This exception is thrown when copying
+ * fails.
+ *
+ * @package Ssf\Copy\Exceptions;
  */
 class FailedCopyException extends \Exception
 {

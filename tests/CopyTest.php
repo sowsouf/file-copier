@@ -2,7 +2,7 @@
 
 
 use PHPUnit\Framework\TestCase;
-use PNdata\Copy\Facades\Copy;
+use Ssf\Copy\Facades\Copy;
 
 /**
  * Class CopyTest
@@ -32,14 +32,14 @@ class CopyTest extends TestCase
     {
         parent::__construct(get_class($this));
         $this->copy = new Copy();
-        $this->path = \PNdata\Copy\Tools\Helpers::storage_path('files/tests');
+        $this->path = \Ssf\Copy\Tools\Helpers::storage_path('files/tests');
         $this->fileContent = 'Je suis le contenu du fichier à tester';
     }
 
     /**
-     * @throws \PNdata\Copy\Exceptions\CannotMkdirException
-     * @throws \PNdata\Copy\Exceptions\FailedCopyException
-     * @throws \PNdata\Copy\Exceptions\FileNotFoundException
+     * @throws \Ssf\Copy\Exceptions\CannotMkdirException
+     * @throws \Ssf\Copy\Exceptions\FailedCopyException
+     * @throws \Ssf\Copy\Exceptions\FileNotFoundException
      */
     public function testCopy()
     {

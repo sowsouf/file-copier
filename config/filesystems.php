@@ -5,7 +5,7 @@ return [
 
     'disks' => [
         'local' => [
-            'root' => \PNdata\Copy\Tools\Helpers::env('LOCAL_ROOT', "")
+            'root' => \Ssf\Copy\Tools\Helpers::env('LOCAL_ROOT', "")
         ],
 
         'sftp' => [

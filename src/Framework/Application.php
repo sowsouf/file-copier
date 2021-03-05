@@ -1,14 +1,14 @@
 <?php
 
 
-namespace PNdata\Copy\Framework;
+namespace Ssf\Copy\Framework;
 
 
-use PNdata\Copy\Commands\CopyCommand;
+use Ssf\Copy\Commands\CopyCommand;
 
 /**
  * Class Application
- * @package PNdata\Copy\Framework
+ * @package Ssf\Copy\Framework
  */
 class Application
 {

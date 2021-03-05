@@ -1,22 +1,22 @@
 <?php
 /**
  * This file contains Input class.
+ * @see \Ssf\Copy\Commands\Input\Input::value()
+ *
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
+ */
+
+
+namespace Ssf\Copy\Commands\Input;
+
+/**
+ * Class Input
  * Cette classe est la classe mère des arguments et
  * options des commandes console. Elle permet de définir
  * la structure d'un <input> et de le créer
  * La structure d'un champ <input> est definie
  * au niveau de la méthode value
- * @see \PNdata\Copy\Commands\Input\Input::value()
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
- */
-
-
-namespace PNdata\Copy\Commands\Input;
-
-/**
- * Class Input
- * @package PNdata\Copy\Commands\Input
+ * @package Ssf\Copy\Commands\Input
  */
 class Input
 {

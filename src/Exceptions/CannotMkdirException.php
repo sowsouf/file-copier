@@ -1,18 +1,17 @@
 <?php
 /**
  * This file contains CannotMkdirException
- * This exception is thrown when make directory
- * fails.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Exceptions;
+namespace Ssf\Copy\Exceptions;
 
 
 /**
  * Class CannotMkdirException
- * @package PNdata\Copy\Exceptions
+ * This exception is thrown when make directory
+ * fails.
+ * @package Ssf\Copy\Exceptions
  */
 class CannotMkdirException extends \Exception
 {

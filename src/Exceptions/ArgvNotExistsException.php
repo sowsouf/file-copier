@@ -1,20 +1,19 @@
 <?php
 /**
  * This file contains ArgvNotExistsException
- * This exception is thrown when a wrong argv
- * provided to command.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Exceptions;
+namespace Ssf\Copy\Exceptions;
 
 
 use Throwable;
 
 /**
  * Class ArgvNotExistsException
- * @package PNdata\Copy\Exceptions
+ * This exception is thrown when a wrong argv
+ * provided to command.
+ * @package Ssf\Copy\Exceptions
  */
 class ArgvNotExistsException extends \Exception
 {

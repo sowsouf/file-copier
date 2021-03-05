@@ -1,19 +1,19 @@
 <?php
 /**
  * This file contains FilesystemInterface
- * Cette inferface contient les méthodes utiles
- * à implémenter pour la gestion des fichiers
- * systèmes.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Services\Filesystems;
+namespace Ssf\Copy\Services\Filesystems;
 
 
 /**
  * Interface FilesystemInterface
- * @package PNdata\Copy\Services\Filesystems
+ * Cette inferface contient les méthodes utiles
+ * à implémenter pour la gestion des fichiers
+ * systèmes.
+ *
+ * @package Ssf\Copy\Services\Filesystems
  */
 interface FilesystemInterface
 {

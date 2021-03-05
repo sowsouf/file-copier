@@ -1,18 +1,18 @@
 <?php
 /**
  * This file contains DirectoryNotFoundException
- * This exception is thrown when a directory is
- * not found.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Exceptions;
+namespace Ssf\Copy\Exceptions;
 
 
 /**
  * Class DirectoryNotFoundException
- * @package PNdata\Copy\Exceptions
+ * This exception is thrown when a directory is
+ * not found.
+ *
+ * @package Ssf\Copy\Exceptions
  */
 class DirectoryNotFoundException extends \Exception
 {

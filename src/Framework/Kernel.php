@@ -1,12 +1,12 @@
 <?php
 
 
-namespace PNdata\Copy\Framework;
+namespace Ssf\Copy\Framework;
 
 
 /**
  * Interface Kernel
- * @package PNdata\Copy\Framework
+ * @package Ssf\Copy\Framework
  */
 interface Kernel
 {

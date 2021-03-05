@@ -1,6 +1,6 @@
 <?php
 
-$app = new \PNdata\Copy\Framework\Application(
+$app = new \Ssf\Copy\Framework\Application(
     dirname(__DIR__)
 );
 

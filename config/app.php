@@ -12,5 +12,5 @@ return [
       |
       */
 
-    'name' => \PNdata\Copy\Tools\Helpers::env('APP_NAME', 'copy'),
+    'name' => \Ssf\Copy\Tools\Helpers::env('APP_NAME', 'copy'),
 ];

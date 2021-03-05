@@ -1,22 +1,22 @@
 <?php
 /**
  * This file contains Copy class
- * Cette classe permet d'utiliser la classe @see \PNdata\Copy\Services\Finder
- * de manière transparente.
- *
- * @author Akbly Sofiane <sakbly@pndata.tech>
+ * @author Akbly Sofiane <sofiane.akbly@gmail.com>
  */
 
-namespace PNdata\Copy\Facades;
+namespace Ssf\Copy\Facades;
 
-use PNdata\Copy\Exceptions\CannotMkdirException;
-use PNdata\Copy\Exceptions\FailedCopyException;
-use PNdata\Copy\Exceptions\FileNotFoundException;
-use PNdata\Copy\Services\Finder;
+use Ssf\Copy\Exceptions\CannotMkdirException;
+use Ssf\Copy\Exceptions\FailedCopyException;
+use Ssf\Copy\Exceptions\FileNotFoundException;
+use Ssf\Copy\Services\Finder;
 
 /**
  * Class Copy
- * @package PNdata\Copy\Facades
+ * Cette classe permet d'utiliser la classe @see \Ssf\Copy\Services\Finder
+ * de manière transparente.
+ *
+ * @package Ssf\Copy\Facades
  */
 class Copy
 {
