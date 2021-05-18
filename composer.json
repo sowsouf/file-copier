@@ -38,8 +38,8 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
-    "version": "0.0.2-beta3",
-    "time": "2021-03-05",
+    "version": "v0.0.2-beta4",
+    "time": "2021-05-18",
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
