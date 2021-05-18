@@ -25,6 +25,7 @@ class Command implements Kernel
      * @var array $arguments Liste des arguments
      */
     protected array $arguments;
+
     /**
      * @var array $options Liste des options
      */

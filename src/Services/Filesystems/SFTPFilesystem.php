@@ -64,7 +64,7 @@ class SFTPFilesystem implements FilesystemInterface
                     Helpers::app('filesystem.sftp.fingerprint'),
                     Helpers::app('filesystem.sftp.checker'),
                 ),
-                Helpers::config('filesystems.disks.sftp.root', '/')
+                Helpers::app('filesystem.sftp.root') ?? Helpers::config('filesystems.disks.sftp.root', '/')
             )
         );
     }
